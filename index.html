@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="my-3 text-center">Product Add Cart</h2>
+        <div>
+            <input type="text" id="Product_input" class="form-control mt-5 mb-3">
+            <!-- input part -->
+            <ul id="product_container">
+
+            </ul>
+            <!-- display product -->
+            <div class="text-center">
+                <button onclick="add_product()" class="btn btn-warning">Add Product</button>
+                <button onclick="purchase()" class="btn btn-success">Place Order</button>
+            </div>
+        </div>
+        <!-- button part -->
+
+        <h6 class="text-muted" style="margin-top: 200px;">N.B : Data loaded from local storage & also saved in local
+            storage</h6>
+        <!-- N.B info message -->
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
